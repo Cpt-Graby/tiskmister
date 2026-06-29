@@ -4,5 +4,5 @@ import "tiskmister/proclet"
 
 func main() {
 	fmt.Println("Welcome to Tiskmister!")
-	proclet.Start()
+	proclet.Start("sleep", "10")
 }
